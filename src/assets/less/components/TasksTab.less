@@ -1,0 +1,54 @@
+.tasks-container{
+    position: relative;
+    width: 80%;
+
+    .task-string{
+        transition: .2s;
+        padding: 3px 10px;
+        margin: 10px;
+        border-radius: 20px;
+        outline: 1px solid #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .task-n-check{
+            display: flex;
+            .task-checkbox{
+                margin: 0px 5px;
+            }
+        }
+    
+        &:hover{
+            background-color: #6767bb;
+            transition: .1s;
+        }
+    }
+
+
+    input{
+        cursor: pointer;
+        background-color: transparent;
+        &:read-only{
+            outline: none;
+            border: none;
+        }
+    }
+    .create-task{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: 0;
+        cursor: pointer;
+    }
+
+    .btn{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        background-color: #6767ff;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
