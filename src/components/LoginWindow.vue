@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="login-actions">
-      <button @click="signIn()" class="btn">Sign in</button>
+      <button @click="signIn()" class="btn">LogIn</button>
       <button @click="signUp()" class="btn">Sign up</button>
     </div>
   </div>
